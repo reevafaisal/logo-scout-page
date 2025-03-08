@@ -1,6 +1,4 @@
 # LogoScout
-
-## Description
 This project is a web-based image extraction tool that crawls websites and retrieves images efficiently, built primarily in Java. It is designed to extract images from a given URL, queue subpages within the same domain, and filter results for logos or other specific image types. The tool is optimized for performance and concurrency, ensuring that users receive results quickly while maintaining scalability.
 
 ## Key Features
@@ -24,6 +22,11 @@ This project is a web-based image extraction tool that crawls websites and retri
 
 - Paste any public webpage url into the search bar ([test links provided below](./index.html#test-links)).
 - Click any of the iamges produced to view the the specific webpage it has been crawled from.
+
+**Note:**
+- Due to API usage restrictions, I have restricted the number of subpages that can be crawled to prevent exponenetial increases in number of images that need to be classified.
+
+---
 
 ## Test Links
 - [https://jekyllrb.com/](https://jekyllrb.com/)
