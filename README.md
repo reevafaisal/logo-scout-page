@@ -12,7 +12,7 @@ This project is a web-based image extraction tool that crawls websites and retri
 
 ---
 
-### [Demo](https://web-production-ec8c.up.railway.app/)
+### [Demo](https://prolific-elegance-production.up.railway.app/)
 
   <p>
     <iframe src="https://prolific-elegance-production.up.railway.app/" width="100%" height="450" frameborder="0" scrolling="yes"></iframe>  
@@ -21,7 +21,7 @@ This project is a web-based image extraction tool that crawls websites and retri
 ## Usage Instructions 
 
 - Paste any public webpage url into the search bar ([test links provided below](./index.html#test-links)).
-- Click any of the iamges produced to view the the specific webpage it has been crawled from.
+- Click any of the images produced to view the the specific webpage it has been crawled from.
 
 **Note:**
 - Due to API usage restrictions, I have restricted the number of subpages that can be crawled to prevent exponenetial increases in number of images that need to be classified.
@@ -29,11 +29,11 @@ This project is a web-based image extraction tool that crawls websites and retri
 ---
 
 ## Test Links
-- [https://jekyllrb.com/](https://jekyllrb.com/)
 - [https://reevafaisal.github.io/Portfolio/](https://reevafaisal.github.io/Portfolio/)
 - [https://www.simplyrecipes.com/our-most-popular-chicken-breast-recipe-11687586](https://www.simplyrecipes.com/our-most-popular-chicken-breast-recipe-11687586)
 - [https://en.m.wikipedia.org/wiki/File:LEGO_logo.svg](https://en.m.wikipedia.org/wiki/File:LEGO_logo.svg)
+- [https://jekyllrb.com/](https://jekyllrb.com/)
 
 ---
 
-Technologies: Java, JSoup, Gson, ExecutorService, HTML, CSS, JavaScript, JSON, Google Vision API
+**Technologies:** Java, JSoup, Gson, ExecutorService, HTML, CSS, JavaScript, JSON, Google Vision API
