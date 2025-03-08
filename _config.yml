@@ -23,5 +23,12 @@ color-scheme: light
 remote_theme: reevafaisal/jekyll-theme-minimal-new
 
 navigation:
+  - name: Description
+    link: ./index.html#description
+  - name: Key Features
+    link: ./index.html#key-features
   - name: Usage Instructions
     link: ./index.html#usage-instructions
+  - name: Test Links
+    link: ./index.html#test-links
+  
